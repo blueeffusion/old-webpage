@@ -8,7 +8,7 @@ html {
     webkit-text-size-adjust: 100%;
 }
 
-footer,header,nav,section { display: block; }
+article,aside,footer,header,nav,section { display: block; }
 
 body {
     margin: 0;
@@ -27,16 +27,15 @@ body {
 
 h1 {
     margin: 0.67em 0;
-    font-size: 120px;
+    font-size: 7vh;
     font-style: normal;
     font-weight: 100;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0 10px 0;
     text-align: center;
     position: relative;
 }
 
-iframe { border: 3px solid #f9f7f5; }
+iframe { border:5px solid #f9f7f5; }
 
 p {
     margin: 0;
@@ -74,7 +73,7 @@ svg { width: auto; height: auto; }
 header {
     color: #f9f7f5;
     padding-top: 10px;
-    max-height: 90px;
+    max-height: 20vh;
     order: 1;
     flex-basis: auto;
     flex-grow: 1;
@@ -95,13 +94,14 @@ header a:hover { font-weight: 800; }
 
 header ul {
     margin: 0;
-    padding: 10px 20px 0 0;
+    padding: 10px 20px 0 20px;
 }
 
 header li {
     float: left;
     display: inline;
-    padding: 15px 15px 15px 15px;
+    padding: 10px 10px 10px 10px;
+    margin: 2px 0 2px 0;
     list-style-position: inside;
     border: 2px solid #f9f7f5;
     border-radius: 10px;
@@ -113,9 +113,7 @@ header li {
 
 header nav {
     float: right;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 30px;
+    margin: 10px 0 10px 0;
 }
 
 /* middle styles */
@@ -150,39 +148,37 @@ footer a {
 
 footer ul {
     margin: 0;
-    padding: 10px 0 10px 20px;
+    padding: 10px 0px 0 10px;
 }
 
 footer li {
     float: left;
     display: inline;
     list-style-position: inside;
-    padding: 5px 15px 10px 15px;
+    padding: 5px 7px 5px 7px;
 }
 
 footer nav {
     color: #f9f7f5;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0 5px 10px;
 }
 
 /* specific element stylez */
 
 .logo {
     fill: #f9f7f5;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     pointer-events: none;
 }
 
 .main {
     font-style: normal;
-    font-size: 28px;
+    font-size: 4vh;
     font-weight: 100;
     word-wrap: break-word;
     text-align: center;
     color: #f9f7f5;
-    height 80%;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -192,8 +188,7 @@ footer nav {
 }
 
 .gallery {
-    padding: 0;
-    width: 100%;
+    margin: 5vw;
     flex-flow: row wrap;
     display: flex;
     flex-direction: row;
@@ -202,14 +197,13 @@ footer nav {
 
 .gallerypic {
     width: 300px;
-    padding: 1px;
-    margin: 0.7vw;
+    margin: .5vw;
 }
 
 .galpic {
     flex-grow: 1;
     flex-shrink: 1;
-    border: 3px solid #f9f7f5;
+    border:5px solid #f9f7f5;
     margin: 0;
 }
 
