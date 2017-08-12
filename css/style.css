@@ -188,7 +188,7 @@ footer nav {
 }
 
 .gallery {
-    margin: 5vw;
+    margin: 1vw;
     flex-flow: row wrap;
     display: flex;
     flex-direction: row;
@@ -197,7 +197,7 @@ footer nav {
 
 .gallerypic {
     width: 300px;
-    margin: .5vw;
+    margin: 1vw;
 }
 
 .galpic {
