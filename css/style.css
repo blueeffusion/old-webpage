@@ -19,10 +19,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
-    background-color: #666175;
-    background-image: linear-gradient(150deg, #666175, #74616b 80%);
-    background: #666175;
-    background: linear-gradient(150deg, #666175, #74616b 80%);
+    background-color: #74616b;
 }
 
 h1 {
@@ -216,10 +213,10 @@ footer nav {
     background-color: rgba(186, 186, 186, 0.3)
 }
 
-#pictures { background-image: url('../img/showcase05.png'); }
-#projects { background-image: url('../img/test.png'); }
-#music { background-image: url('../img/mod50.png'); }
-#video { background-image: url('../img/lake50.png');}
+#pictures { background-image: url('../img/showcase05a.jpg'); }
+#projects { background-image: url('../img/testa.jpg'); }
+#music { background-image: url('../img/mod50a.jpg'); }
+#video { background-image: url('../img/lake50a.jpg');}
 
 /* aww man, in case no icon svg support */
 
