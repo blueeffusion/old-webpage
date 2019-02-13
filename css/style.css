@@ -218,16 +218,6 @@ footer nav {
 #music { background-image: url('../img/mod50a.jpg'); }
 #video { background-image: url('../img/lake50a.jpg');}
 
-/* aww man, in case no icon svg support */
-
-#twitter { background-image: url("./img/twitter.png") }
-#instagram { background-image: url("./img/instagram.png") }
-#pinterest { background-image: url("./img/pinterest.png") }
-#flickr { background-image: url("./img/flickr.png") }
-#vimeo { background-image: url("./img/vimeo.png") }
-#soundcloud { background-image: url("./img/soundcloud.png") }
-#github { background-image: url("./img/github.png") }
-
 /* assorted browser compatibility fixes */
 
 b,strong { font-weight: bolder; }
@@ -240,10 +230,6 @@ code,kbd,samp {
 audio:not([controls]) {
     display: none;
     height: 0;
-}
-
-svg:not(:root) {
-    overflow: hidden;
 }
 
 legend {
